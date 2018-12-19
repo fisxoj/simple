@@ -15,7 +15,7 @@ A prompt inspired by @mathiasbynens's [prompt]
 With [fisherman]
 
 ```fish
-fisher simple
+fisher add fisxoj/simple
 ```
 
 ## Terminal Settings
