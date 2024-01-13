@@ -8,7 +8,7 @@ function fish_right_prompt
 
     if test "$CMD_DURATION" -gt 100
         set -l duration_copy $CMD_DURATION
-        set -l duration (echo $CMD_DURATION | humantime)
+        set -l duration (humantime $CMD_DURATION)
 
          echo -sn (set_color $status_color) "$duration" (set_color normal)
 
